@@ -123,8 +123,8 @@ public class SubmitActivity extends AppCompatActivity {
 //                        //btn popup settings
                         btnYes.setVisibility(View.GONE);
                         dialog.findViewById(R.id.sure_text).setVisibility(View.GONE);
-                        responseIcon.setImageResource(R.drawable.ic_success);
-//                        responseText.setText(getString(R.string.no_success));
+                        responseIcon.setImageResource(R.drawable.ic_fail);
+                        responseText.setText(getString(R.string.no_success));
                         responseIcon.setVisibility(View.VISIBLE);
                         responseText.setVisibility(View.VISIBLE);
 
