@@ -120,7 +120,7 @@ public class SubmitActivity extends AppCompatActivity {
                     public void onFailure(Call<Post> call, Throwable t) {
 
 
-                        //btn popup settings
+//                        //btn popup settings
                         btnYes.setVisibility(View.GONE);
                         dialog.findViewById(R.id.sure_text).setVisibility(View.GONE);
                         responseIcon.setImageResource(R.drawable.ic_fail);
