@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/popup_close"
+        android:layout_gravity="end"
+        android:background="@drawable/ic_cancel"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/sure_text"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/dialog_text"
+        />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:id="@+id/btn_yes"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/pluralDarkOrange"
+            android:background="@drawable/button_yes"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submission_icon"
+            android:visibility="gone"
+            android:src="@drawable/ic_success"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+
+            android:id="@+id/submission_success"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:text="@string/submission_successful"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
